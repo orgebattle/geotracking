@@ -1,6 +1,6 @@
 <?php
 
-namespace orgebattle\geotracking\Distance;
+namespace orgebattle\Distance;
 
 Class Distance
 {

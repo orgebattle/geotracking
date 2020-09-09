@@ -12,7 +12,7 @@
  *
  */
 
-namespace orgebattle\geotracking\Trilateration;
+namespace orgebattle\Trilateration;
 
 class Sphere extends Point
 {
