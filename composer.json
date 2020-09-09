@@ -17,8 +17,7 @@
     "autoload": {
         "psr-4" : {
             "orgebattle\\Trilateration\\" : "src\\Trilateration",
-            "orgebattle\\Distance\\" : "src\\Distance",
-            "orgebattle\\GTracking\\" : "src"
+            "orgebattle\\Distance\\" : "src\\Distance"
         }
     }
 }
