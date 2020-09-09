@@ -16,7 +16,8 @@
     },
     "autoload": {
         "psr-4" : {
-            "orgebattle\\" : "src"
+            "orgebattle\\Trilateration\\" : "src\\Trilateration",
+            "orgebattle\\Distance\\" : "src\\Distance"
         }
     }
 }
