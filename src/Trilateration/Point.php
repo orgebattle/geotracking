@@ -12,7 +12,7 @@
  *
  */
 
-namespace orgebattle\Trilateration;
+namespace orgebattle\geotracking\Trilateration;
 
 use Nubs\Vectorix\Vector;
 
