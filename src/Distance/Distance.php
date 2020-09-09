@@ -20,7 +20,7 @@ Class Distance
      * 3.0 to 5.0 in suburban areas, 1.6 to 1.8 for indoors
      * @var int
      */
-    protected int $factor = 2;
+    protected int $factor;
 
     /**
      * Distance constructor.
@@ -28,7 +28,7 @@ Class Distance
      * @param $rssi
      * @param $factor
      */
-    public function __construct($txPower, $rssi, $factor)
+    public function __construct($txPower, $rssi, $factor = 2)
     {
         $this->txPower = $txPower;
         $this->rssi = $rssi;
