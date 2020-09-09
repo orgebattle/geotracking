@@ -11,7 +11,8 @@ use orgebattle\Distance\Distance;
 
 // 각각의 AP의 TxPower, RSSI를 이용하여 거리 측정
 // $factor: 측정환경에 따른 인자 (기본값 2: free area)
-$distance = new Distance($txPower, $rssi, $factor);
+$distanceByRssi = new Distance($txPower, $rssi, $factor);
+$distance = $distanceByRssi->calculate();
 
 
 // 3개의 구체 생성
