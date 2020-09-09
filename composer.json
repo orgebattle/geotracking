@@ -1,5 +1,5 @@
 {
-    "name": "orgebattle/trilateration",
+    "name": "orgebattle/geotracking",
     "type": "library",
     "authors": [
         {
@@ -7,7 +7,7 @@
             "email": "orgebattlesaga@gmail.com"
         }
     ],
-    "description": "Trilateration for PHP",
+    "description": "geotracking for PHP",
     "require": {
         "nubs/vectorix": "^1.1"
     },
